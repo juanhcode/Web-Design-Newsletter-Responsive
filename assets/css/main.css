@@ -19,6 +19,7 @@ tr :hover a{
 }
 .tittle{
     text-transform: uppercase;
+    text-align:center;
 }
 .container{
     background: #3D7EAA;  /* fallback for old browsers */
@@ -40,6 +41,7 @@ tr :hover a{
     box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);
     border-radius:10px;
     position: relative;
+    padding:1.8em;
 }
 
 .actions{
@@ -90,17 +92,28 @@ tr :hover a{
     border-color: #F8EAAC ;*/  
     border-bottom: solid 2px #F8EAAC;
     padding-bottom: 1em;
+    font-size: 2em;
 
 }
 
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 260px;
+    border-radius:6px;
+}
+.address{
+    font-weight: bold;
+    color:  #7DA4BA ;
+    font-size:1.2em;
+}
 .position{
     background-color: #F8EAAC;
     color: white;
     padding:10px;
     border-radius:4px;
+    margin-right: 0.5em;
 }
 
-h1{
-    text-align:center;
-}
+
 
